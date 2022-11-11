@@ -66,6 +66,11 @@ a {
 
 }
 
+a:hover {
+    color: #E19691;
+}
+
+
 .login {
     padding: 2px 6px;
     box-sizing: border-box;
@@ -79,6 +84,12 @@ a {
     margin-right: -3px;
 
     color: #FFFFFF;
+}
+
+.login:hover {
+    background: #FF9677;
+    color: #41436A;
+    transition: 0.16s;
 }
 
 .signup {
@@ -98,6 +109,14 @@ a {
 
     color: #41436A;
 }
+
+.signup:hover {
+    background-color: #41436A;
+    color: #FF9677;
+    border: 1.5px solid #41436A;
+    transition: 0.16s;
+}
+
 
 .h {
     margin: -3px;
@@ -197,16 +216,24 @@ a {
     height: 97px;
     background: #41436A;
     border-radius: 40px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
     text-align: center;
-    font-size: 48px;
+    font-size: 50px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.25s;
+    font-family: 'Yuanti SC';
 
+}
+
+.join:hover {
+    background: #FF9677;
+    color: #41436A;
+    border-radius: 20px;
+    transition: 0.25s;
 }
 
 .cards {
