@@ -82,6 +82,7 @@ a:hover {
     font-size: 20px;
     line-height: 28px;
     margin-right: -3px;
+    transition: 0.16s;
 
     color: #FFFFFF;
 }
@@ -105,15 +106,16 @@ a:hover {
     line-height: 28px;
     margin: 0;
     margin-right: 50px;
+    transition: 0.16s;
 
 
     color: #41436A;
 }
 
 .signup:hover {
-    background-color: #41436A;
-    color: #FF9677;
-    border: 1.5px solid #41436A;
+    background: none;
+    border: 1.5px solid #FF9677;
+    color: #FFFFFF;
     transition: 0.16s;
 }
 
